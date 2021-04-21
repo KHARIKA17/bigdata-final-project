@@ -142,6 +142,7 @@ input_text1 = input_text.split('.')
 clean_data = wordcloud_generator.preprocessing(input_text1)
 wordcloud_generator.create_word_cloud(clean_data)
 ```
+![https://github.com/KHARIKA17/bigdata_final_project/blob/main/output2.JPG](https://github.com/KHARIKA17/bigdata_final_project/blob/main/output2.JPG)
 
 #### References:
 - [https://github.com/GUNDUPOOJA/Pooja_big_data_project](https://github.com/GUNDUPOOJA/Pooja_big_data_project)
