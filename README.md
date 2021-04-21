@@ -46,7 +46,7 @@ remove =StopWordsRemover()
 stopwords = remove.getStopWords()
 clean_words_RDD=clean_tokens_RDD.filter(lambda wrds: wrds not in stopwords)
 ```
-### Ste3:Processing the data:
+### Step3:Processing the data:
 1.We will now prcess the data,as we are done with cleaning the data.Here we map the words to key value pairs.
 ```
 IKVPairsRDD = clean_words_RDD.map(lambda word : (word,1) )
@@ -143,9 +143,9 @@ clean_data = wordcloud_generator.preprocessing(input_text1)
 wordcloud_generator.create_word_cloud(clean_data)
 ```
 
-References:
-[https://github.com/GUNDUPOOJA/Pooja_big_data_project](https://github.com/GUNDUPOOJA/Pooja_big_data_project)
-[https://github.com/Rajeshwari-Rudra/bigData-finalProject](https://github.com/Rajeshwari-Rudra/bigData-finalProject)
+#### References:
+- [https://github.com/GUNDUPOOJA/Pooja_big_data_project](https://github.com/GUNDUPOOJA/Pooja_big_data_project)
+- [https://github.com/Rajeshwari-Rudra/bigData-finalProject](https://github.com/Rajeshwari-Rudra/bigData-finalProject)
 
 
 
