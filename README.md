@@ -92,7 +92,7 @@ plt.figure(figsize=(10,3))
 sns.barplot(xlabel, ylabel, data=df, palette="rainbow").set_title(title)
 ```
 Then we can visualise the data as below:
-
+![https://github.com/KHARIKA17/bigdata_final_project/blob/main/output1.JPG](https://github.com/KHARIKA17/bigdata_final_project/blob/main/output1.JPG)
 ### Image of Word cloud:
 We need to import "Natural Language tool kit" and "word Cloud" libraries to show the highest word count for given the input file.Then, we need to define few functions to process the data and the result will shown in figure.
 ```
